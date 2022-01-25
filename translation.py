@@ -1,6 +1,5 @@
 class Translation(object):
     START_TEXT = """Hi! 𝐍𝐄𝐍𝐔 𝐀𝐏𝐈_𝐈𝐝, 𝐀𝐏𝐈_𝐇𝐀𝐒𝐇 𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐑 𝐍𝐈 😁
-
 https://te.legra.ph/file/e719f19bbeeb7f55e6202.jpg
 𝐍𝐚𝐧𝐮 𝐝𝐞𝐩𝐥𝐨𝐲 𝐜𝐡𝐞𝐧𝐝𝐡𝐢:@santhu_music_bot
 𝐍𝐄𝐓𝐖𝐎𝐑𝐊: @santhuvc
