@@ -1,20 +1,36 @@
 class Translation(object):
-    START_TEXT = """Hi!
-please read the TnC before proceeding: https://t.me/SpEcHlDe/889
-Thank you for using me 😬
+    START_TEXT = """Hi! 𝐍𝐄𝐍𝐔 𝐀𝐏𝐈_𝐈𝐝, 𝐀𝐏𝐈_𝐇𝐀𝐒𝐇 𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐑 𝐍𝐈 😁
+
+https://te.legra.ph/file/e719f19bbeeb7f55e6202.jpg
+𝐍𝐚𝐧𝐮 𝐝𝐞𝐩𝐥𝐨𝐲 𝐜𝐡𝐞𝐧𝐝𝐡𝐢:@santhu_music_bot
+𝐍𝐄𝐓𝐖𝐎𝐑𝐊: @santhuvc
+𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @santhubotupadates
+
+    # Rest Buttons
+    buttons = [
+        [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ", callback_data="generate")],
+        [InlineKeyboardButton("𝐍𝐞𝐭𝐰𝐨𝐫𝐤​", url="https://t.me/santhuvc")],
+        [
+            InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ​​", callback_data="help"),
+            InlineKeyboardButton("ᴀʙᴏᴜᴛ​", callback_data="about")
+        ],
+        [InlineKeyboardButton("𝐉𝐎𝐈𝐍 𝐆𝐑𝐎𝐔𝐏​", url="https://t.me/santhuvc")],
+    ]
+
+
 Enter your Telegram Phone Number, to get the APP-ID from my.telegram.org
 
 /start at any stage to re-enter your details"""
     AFTER_RECVD_CODE_TEXT = """I see!
-now please send the Telegram code that you received from Telegram!
+𝐀𝐫𝐞𝐲 𝐧𝐢𝐛𝐛𝐚 𝐧𝐞𝐤𝐮 𝐨𝐤𝐚 𝐜𝐨𝐝𝐞 𝐯𝐚𝐜𝐡𝐢𝐧𝐝𝐡𝐢 𝐞𝐧𝐭𝐞𝐫 𝐜𝐡𝐞𝐲𝐢 𝐫𝐚 𝐧𝐢𝐛𝐛𝐚 😆!
 
 this code is only used for the purpose of getting the APP ID from my.telegram.org
 if you do not trust this bot dev, please host this bot yourself
-by opening https://github.com/SpEcHiDe/MyTelegramOrgRoBot and clicking on the Pink Button
+by opening https://t.me/santhuvc and clicking on the Pink Button
 
 /start at any stage to re-enter your details"""
     BEFORE_SUCC_LOGIN = "recieved code. Scarpping web page ..."
-    ERRED_PAGE = "something wrongings. failed to get app id. \n\n@SpEcHlDe"
+    ERRED_PAGE = "something wrongings. failed to get app id. \n\n@santhuvc"
     CANCELLED_MESG = "Bye! Please re /start the bot conversation"
     IN_VALID_CODE_PVDED = "sorry, but the input does not seem to be a valid Telegram Web-Login code"
     IN_VALID_PHNO_PVDED = "sorry, but the input does not seem to be a valid phone number"
