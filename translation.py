@@ -8,13 +8,13 @@ https://te.legra.ph/file/e719f19bbeeb7f55e6202.jpg
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ", callback_data="generate")],
-        [InlineKeyboardButton("𝐍𝐞𝐭𝐰𝐨𝐫𝐤​", url="https://t.me/santhuvc")],
+        [InlineKeyboardButton("𝐎𝐖𝐍𝐄𝐑", url="https://t.me/santhu_music_bot"),
+        [InlineKeyboardButton("𝐍𝐄𝐓𝐖𝐎𝐑𝐊", url="https://t.me/santhuvc"),
         [
-            InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ​​", callback_data="help"),
-            InlineKeyboardButton("ᴀʙᴏᴜᴛ​", callback_data="about")
+            InlineKeyboardButton("𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄 𝐘𝐎𝐔𝐑 𝐒𝐓𝐑𝐈𝐍𝐆 𝐇𝐄𝐑𝐄", url="https://t.me/Santhustringbot"),
+            InlineKeyboardButton("ᴀʙᴏᴜᴛ​", callback_data="about"), 
         ],
-        [InlineKeyboardButton("𝐉𝐎𝐈𝐍 𝐆𝐑𝐎𝐔𝐏​", url="https://t.me/santhuvc")],
+        [InlineKeyboardButton("𝐉𝐎𝐈𝐍 𝐆𝐑𝐎𝐔𝐏​", url="https://t.me/santhuvc"),
     ]
 
 
